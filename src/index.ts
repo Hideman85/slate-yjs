@@ -1,6 +1,6 @@
 import { applyYjsEvents, translateYjsEvent } from './applyToSlate';
 import applySlateOps from './applyToYjs';
-import { SharedType, SyncElement, SyncNode } from './model';
+import { SharedType, SyncElement, SyncNode, slateYjsSymbol } from './model';
 import {
   CursorEditor,
   useCursors,
@@ -27,4 +27,5 @@ export {
   translateYjsEvent,
   applyYjsEvents,
   applySlateOps,
+  slateYjsSymbol,
 };
